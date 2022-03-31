@@ -1,0 +1,38 @@
+.energi {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.energi .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.energi .gradEnergi {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.energi 
+.card
+.energi-content {
+	text-align: center;
+	justify-content: center;
+}
+.energi 
+.card
+.energi-content 
+h5{
+	font-weight: 700;
+}
+.energi 
+.card
+.energi-content 
+h5 span{
+	font-weight: 400;
+}
+.energi 
+.card
+.energi-content 
+.title{
+	font-weight: bold;
+}

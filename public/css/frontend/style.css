@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.scrollTop {
+    position: fixed;
+    background-image: url("../../img/scrollTop.svg");
+    bottom: 90%;
+    right: 1%;
+    width: 100px;
+    height: 50px;
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.scrollTop.aktif {
+    bottom: 3%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Navbar */
+nav {
+    font-family: "Roboto", sans-serif;
+}
+nav .logo span {
+    font-size: 16px;
+}
+nav #navbarNav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 14px;
+    font-weight: 700;
+}
+nav #navbarNav ul li a:hover {
+    color: #0092dd !important;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}
+nav #navbarNav ul li .dropdown-menu a{
+    padding: 12px;
+    font-weight: 500;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    height: 620px;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.jumbotron .welcome h2 {
+    font-weight: 400;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    line-height: 42px;
+}
+.jumbotron .welcome h2 span {
+    color: #0092dd;
+    font-weight: 600;
+}
+
+
+/*  Statistik & Desa  */
+.about:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 50px 0 0;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    content: "";
+    background-color: #fff;
+}
+.about {
+    width: 100%;
+    height: 1150px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* About Statistik */
+.about .statistik {
+    margin-top: 100px;
+}
+.about .statistik h2 {
+    font-weight: 700;
+}
+.about .statistik h2 span {
+    color: #0092dd;
+}
+.about .statistik .featur-line {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 1em 0em;
+}
+.about .statistik p {
+    font-weight: 400;
+}
+.about .img-statistik {
+    margin-top: 100px;
+    width: 540px;
+}
+
+
+/* About Desa */
+.about .desa {
+    margin-top: 200px;
+}
+.about .desa h2 {
+    font-weight: 700;
+}
+.about .desa h2 span {
+    color: #0092dd;
+}
+.about .desa .featur-line {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 1em 0em;
+}
+.about .desa p {
+    font-weight: 400;
+}
+.about .img-desa {
+    margin-top: 180px;
+    width: 540px;
+}
+
+
+/* SIG Statistik & Persebaran Desa */
+.sig {
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: -100px 0;
+    color: #fff;
+    position: relative;
+}
+.sig::after {
+    content: "";
+    display: block;
+    background-color: #0092dd;
+    opacity: 0.5;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+}
+
+.sig-isi {
+    margin: 150px auto;
+    font-size: 28px;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+}
+.sig-isi p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Konten Statistik */
+.konten {
+    width: 100%;
+    height: 940px;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+    font-family: "Poppins", sans-serif;
+}
+.konten .title h2 {
+    margin-top: 50px;
+    font-weight: 700;
+}
+.konten .title h2 span {
+    color: #0092dd;
+}
+.konten .title p {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+    display: block;
+}
+.konten .service-card {
+    border: none;
+    margin: 10px auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.konten .service-card .service-card__img img {
+    width: 350px;
+}
+
+.konten .service-card .service-card2__img img {
+    width: 370px;
+}
+
+#map {
+    width: 100%;
+    height: 610px;
+}
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+    background-color: #0092dd;
+}
+.footer .container {
+    width: 100%;
+    height: 100%;
+}
+.footer img {
+    margin-left: -50px;
+    margin-top: -40px;
+}
+.footer .kontak {
+    margin-top: 40px;
+    margin-left: -50px;
+}
+.footer .kontak span {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.footer .kontak p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.footer .footer-konten::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    margin: auto;
+    margin-top: -50px;
+}
+.footer .footer-created {
+    padding-top: -20px;
+}
+.footer .footer-created p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: -30px;
+    padding-right: 50%;
+}
+.footer .footer-created .icon {
+    margin-top: -30px;
+    padding-left: 42%;
+}
+.footer .footer-created .icon a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+}
+.footer .footer-created .icon a i:hover {
+    transform: scale(1.5);
+}
+
+
+
+/* Responsive Mobile */
+@media screen and (max-width: 768px) {
+    .scrollTop.aktif {
+        bottom: 10%;
+    }
+    
+    nav .logo img {
+        width: 20px;
+        height: 20px;
+    }
+    nav .logo span {
+        font-size: 14px;
+    }
+    .dropdown-menu{
+        width: 300px;
+        height: 150px;
+        overflow-y: auto;
+    }
+    .dropdown:hover>.dropdown-menu{
+        display: none;
+    }
+    nav #navbarNav ul li .dropdown-menu a{
+        padding: 15px;
+        font-weight: 500;
+    }
+
+    /*Jumbotron*/
+    .jumbotron {
+        height: 720px;
+    }
+    .jumbotron .welcome {
+        margin-top: -20px;
+    }   
+    .jumbotron .welcome h2 {
+        font-size: 28px;
+    }
+    .jumbotron .welcome h2 span {
+        font-size: 28px;
+    }
+    .about {
+        height: 1350px;
+    }
+
+
+    /* About Statistik */
+    .about .statistik {
+        margin-top: 0px;
+    }
+    .about .statistik h2 {
+        font-size: 28px;
+    }
+    .about .statistik .featur-line {
+        margin: 1em auto;
+    }
+    .about .statistik p {
+        font-size: 18px;
+        padding: 3px 0px 0px 3px;
+    }
+    .about .img-statistik {
+        margin-top: 10px;
+        width: 380px;
+    }
+
+
+    /* About Desa */
+    .about .desa {
+        margin-top: 50px;
+    }
+    .about .desa h2 {
+        font-size: 28px;
+    }
+    .about .desa .featur-line {
+        margin: 1em auto;
+    }
+    .about .desa p {
+        font-size: 18px;
+        padding: 3px 0px 0px 3px;
+    }
+    .about .img-desa {
+        margin-top: 10px;
+        width: 380px;
+    }
+
+    .sig {
+        height: 460px;
+    }
+    .sig::after {
+        height: 480px;
+    }
+    .sig-isi {
+        margin: 20% auto;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    /* Konten Statistik */
+    .konten {
+        height: 80%;
+    }
+    .konten .title h2 {
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .konten .service-card {
+        margin: 5px auto;
+    }
+    .konten .service-card .service-card__img img {
+        width: 310px;
+    }
+
+    .konten .service-card .service-card2__img img {
+        width: 320px;
+    }
+
+
+    /*Map*/
+    #map {
+        height: 400px;
+    }
+    
+
+    /*Footer*/
+    .footer .footer-konten {
+        padding: 10px;
+    }
+    .footer img {
+        width: 200px;
+    }
+    .footer .kontak {
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .footer .kontak span {
+        font-size: 14px;
+    }
+    .footer .kontak p {
+        font-size: 12px;
+    }
+    .footer .footer-konten::after {
+        margin-top: 0px;
+    }
+    .footer .footer-created {
+        padding-top: 30px;
+    }
+    .footer .footer-created p {
+        font-size: 14px;
+        text-align: left;
+        margin-top: -30px;
+        padding-right: 30%;
+    }
+    .footer .footer-created .icon {
+        margin-top: -40px;
+        padding-left: 75%;
+    }
+    .footer .footer-created .icon a i:hover {
+        transform: none;
+    }
+}

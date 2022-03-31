@@ -1,0 +1,38 @@
+.geografi {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.geografi .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.geografi .gradGeografi {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.geografi 
+.card
+.geografi-content {
+	text-align: center;
+	justify-content: center;
+}
+.geografi 
+.card
+.geografi-content 
+h5{
+	font-weight: 700;
+}
+.geografi 
+.card
+.geografi-content 
+h5 span{
+	font-weight: 400;
+}
+.geografi 
+.card
+.geografi-content 
+.title{
+	font-weight: bold;
+}

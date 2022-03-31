@@ -1,0 +1,38 @@
+.pemerintahan {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.pemerintahan .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.pemerintahan .gradPemerintahan {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.pemerintahan 
+.card
+.pemerintahan-content {
+	text-align: center;
+	justify-content: center;
+}
+.pemerintahan 
+.card
+.pemerintahan-content 
+h5{
+	font-weight: 700;
+}
+.pemerintahan 
+.card
+.pemerintahan-content 
+h5 span{
+	font-weight: 400;
+}
+.pemerintahan 
+.card
+.pemerintahan-content 
+.title{
+	font-weight: bold;
+}

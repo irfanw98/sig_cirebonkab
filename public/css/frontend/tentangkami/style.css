@@ -1,0 +1,23 @@
+.tentangkami {
+    width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.tentangkami .card {
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.tentangkami img {
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+}
+.tentangkami .card h3 {
+    font-weight: 700;
+}
+/* Responsive Mobile */
+@media screen and (max-width: 768px) {
+    .tentangkami img {
+        height: 200px;
+    }
+}

@@ -1,0 +1,38 @@
+.perdagangan {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.perdagangan .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.perdagangan .gradPerdagangan {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.perdagangan 
+.card
+.perdagangan-content {
+	text-align: center;
+	justify-content: center;
+}
+.perdagangan 
+.card
+.perdagangan-content 
+h5{
+	font-weight: 700;
+}
+.perdagangan 
+.card
+.perdagangan-content 
+h5 span{
+	font-weight: 400;
+}
+.perdagangan 
+.card
+.perdagangan-content 
+.title{
+	font-weight: bold;
+}

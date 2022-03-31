@@ -1,0 +1,38 @@
+.keuangan {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.keuangan .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.keuangan .gradKeuangan {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.keuangan 
+.card
+.keuangan-content {
+	text-align: center;
+	justify-content: center;
+}
+.keuangan 
+.card
+.keuangan-content 
+h5{
+	font-weight: 700;
+}
+.keuangan 
+.card
+.keuangan-content 
+h5 span{
+	font-weight: 400;
+}
+.keuangan 
+.card
+.keuangan-content 
+.title{
+	font-weight: bold;
+}

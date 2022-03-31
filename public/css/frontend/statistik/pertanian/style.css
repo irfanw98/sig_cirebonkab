@@ -1,0 +1,38 @@
+.pertanian {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.pertanian .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.pertanian .gradPertanian {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.pertanian 
+.card
+.pertanian-content {
+	text-align: center;
+	justify-content: center;
+}
+.pertanian 
+.card
+.pertanian-content 
+h5{
+	font-weight: 700;
+}
+.pertanian 
+.card
+.pertanian-content 
+h5 span{
+	font-weight: 400;
+}
+.pertanian 
+.card
+.pertanian-content 
+.title{
+	font-weight: bold;
+}

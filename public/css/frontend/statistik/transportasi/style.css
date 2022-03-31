@@ -1,0 +1,38 @@
+.transportasi {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.transportasi .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.transportasi .gradTransportasi {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.transportasi 
+.card
+.transportasi-content {
+	text-align: center;
+	justify-content: center;
+}
+.transportasi 
+.card
+.transportasi-content 
+h5{
+	font-weight: 700;
+}
+.transportasi 
+.card
+.transportasi-content 
+h5 span{
+	font-weight: 400;
+}
+.transportasi 
+.card
+.transportasi-content 
+.title{
+	font-weight: bold;
+}

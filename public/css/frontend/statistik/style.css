@@ -1,0 +1,41 @@
+.konten-statistik {
+	width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.konten-statistik .title h2{
+	font-weight: 700;
+}
+.konten-statistik .title h2 span{
+	color: #0092dd;
+}
+.konten-statistik .title .section-line {
+	width: 20%;
+	height: 2px;
+	background-color: black;
+	margin: 1em auto;
+	display: block;
+}
+.konten-statistik .statistik a{
+	text-decoration: none;
+	color: black;
+}
+.konten-statistik .statistik a .card:hover{
+	transform: scale(1.1);
+}
+.konten-statistik .card {
+	border: none;
+	box-shadow: 5px 5px 5px 5px rgba(229, 233, 246, 0.7);
+	border-radius: 20px;
+	margin: 15px auto;
+	padding-top: 3em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+.konten-statistik .card .service-card__img{
+	padding: 1.25rem;
+}
+.konten-statistik .card .card-title{
+	font-weight: bold;
+}
+
+

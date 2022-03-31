@@ -1,0 +1,38 @@
+.penduduk {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.penduduk .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.penduduk .gradPenduduk {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.penduduk 
+.card
+.penduduk-content {
+	text-align: center;
+	justify-content: center;
+}
+.penduduk 
+.card
+.penduduk-content 
+h5{
+	font-weight: 700;
+}
+.penduduk 
+.card
+.penduduk-content 
+h5 span{
+	font-weight: 400;
+}
+.penduduk 
+.card
+.penduduk-content 
+.title{
+	font-weight: bold;
+}

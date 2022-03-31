@@ -1,0 +1,34 @@
+/* Bukutamu */
+.bukutamu {
+    width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.bukutamu .card {
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.bukutamu .grad {
+    background-color: #218838;
+    height: 4px;
+    border-radius: 20px;
+}
+.bukutamu .card-body {
+    margin-top: 20px 20px auto;
+}
+.bukutamu .card-body .img-bukutamu .bukutamu__img {
+    width: 450px;
+    margin-top: 10px;
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 768px) {
+    .bukutamu .card-body {
+        margin-top: 0px;
+    }
+    .bukutamu .card-body .img-bukutamu .bukutamu__img {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}

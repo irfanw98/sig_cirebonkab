@@ -1,0 +1,38 @@
+.sosial {
+	width: 100%;
+    background-color: #eff6e0 !important;
+    font-family: "Poppins", sans-serif;
+}
+.sosial .card {
+	margin: 40px auto;
+    border-radius: 10px;
+}
+.sosial .gradSosial {
+    background-color: #0092dd;
+    height: 4px;
+    border-radius: 20px;
+}
+.sosial 
+.card
+.sosial-content {
+	text-align: center;
+	justify-content: center;
+}
+.sosial 
+.card
+.sosial-content 
+h5{
+	font-weight: 700;
+}
+.sosial 
+.card
+.sosial-content 
+h5 span{
+	font-weight: 400;
+}
+.sosial 
+.card
+.sosial-content 
+.title{
+	font-weight: bold;
+}
